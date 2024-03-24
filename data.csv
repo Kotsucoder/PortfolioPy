@@ -1,0 +1,21 @@
+title;description;url;image
+Todo App;A distraction-free web app to help you focus on creating and completing tasks.;Todo;todo.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;PortfolioPy;port.png
+PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;Construction;construction.png
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;Construction;construction.png
+Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;Construction;construction.png
+Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;Construction;construction.png
+Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;Construction;construction.png
+Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;Construction;construction.png
+Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;Construction;construction.png
+Open Domain Chatbot;A chatbot built that can discuss anything with a human and is built using the Facebook API.;Construction;construction.png
+Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;Construction;construction.png
+Typing Analyzer;A program that monitors the computer keyboard and returns the most typed words of the session.;Construction;construction.png
+Internet Speed Analysis;A program that records the internet speed every few seconds and plots the values on the browser.;Construction;construction.png
+Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;Construction;construction.png
+Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;Construction;construction.png
+Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;Construction;construction.png
+Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;Construction;construction.png
+School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;Construction;construction.png
+Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;Construction;construction.png
+Online Store;A Django online store app where users can place orders and sellers can manage them.;Construction;construction.png
