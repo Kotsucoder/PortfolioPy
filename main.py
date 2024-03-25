@@ -22,7 +22,8 @@ with col2:
 
 introText = """
 Below you can find some of the apps I have built in Python. These were created 
-while following the Python Mega Course on Udemy.
+while following the 
+[Python Mega Course on Udemy](https://www.udemy.com/course/the-python-mega-course).
 """
 st.write(introText)
 
