@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas
 
+
+def repo(name):
+    return f"https://www.github.com/Kotsucoder/{name}"
+
+
 st.set_page_config(layout='wide')
 
 col1, col2 = st.columns(2)
@@ -30,7 +35,7 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code](https://www.github.com/Kotsucoder/{row['url']})")
+        st.write(f"[Source Code]({repo(row['url'])})")
 
 
 with col4:
@@ -38,4 +43,8 @@ with col4:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code](https://www.github.com/Kotsucoder/{row['url']})")
+        st.write(f"[Source Code]({repo(row['url'])})")
+
+
+st.header("Other works:")
+st.write(f"[Company Website]({repo('pycompanysiteproject')})")
