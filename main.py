@@ -21,15 +21,21 @@ while following the Python Mega Course on Udemy.
 """
 st.write(introText)
 
-col3, col4 = st.columns(2)
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 
 data = pandas.read_csv("data.csv", sep=";")
 with col3:
     for index, row in data[:10].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+        st.write(f"[Source Code](https://www.github.com/Kotsucoder/{row['url']})")
 
 
 with col4:
     for index, row in data[10:].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+        st.write(f"[Source Code](https://www.github.com/Kotsucoder/{row['url']})")
