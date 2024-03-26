@@ -49,3 +49,4 @@ with col4:
 
 st.header("Other works:")
 st.write(f"[Company Website]({repo('pycompanysiteproject')})")
+st.write(f"[Text to PDF]({repo('Text-to-PDF')})")
