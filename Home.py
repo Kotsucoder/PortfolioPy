@@ -16,7 +16,7 @@ with col1:
 with col2:
     st.title("Marcus Kotsu「骨マルカス」")
     content = """
-    二十四才。アメリカ人。Amateur Programmer. WaniKani Level 2. Lion. DoorDasher.
+    二十四才。アメリカ人。Amateur Programmer. WaniKani Level 3. Lion. DoorDasher.
     """
     st.info(content)
 
