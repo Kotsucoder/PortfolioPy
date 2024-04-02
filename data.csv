@@ -14,7 +14,7 @@ Typing Analyzer;A program that monitors the computer keyboard and returns the mo
 Internet Speed Analysis;A program that records the internet speed every few seconds and plots the values on the browser.;Construction;construction.png
 Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;Construction;construction.png
 Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;Construction;construction.png
-Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;Construction;construction.png
+Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;Weather-Forecast;forecast.png
 Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;Construction;construction.png
 School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;Construction;construction.png
 Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;Construction;construction.png
